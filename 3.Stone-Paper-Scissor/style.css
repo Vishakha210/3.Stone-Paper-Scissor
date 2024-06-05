@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;/*To bring all documents at centre*/
+    background-color: #83aa57;
+}
+h1{
+    color: #75a93a;
+    background-color:#283618;
+    height: 5rem;
+
+    /* To bring the text written inside in centre ...vertically center ....same as height measurement*/
+    line-height: 5rem;
+}
+
+/* .choice{
+    height: 160px;
+    width: 165px;
+}
+.choice:hover{
+    opacity: 50%;
+    cursor: pointer;
+} */
+
+
+.choice{
+    height: 160px;
+    width: 165px;
+    border-radius: 50%;
+    /* To bring colour exactly beneath the symbols */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+
+}
+#user_score, #comp_score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 2rem;
+    height: 5rem;
+}
+#msg{
+    background-color: #283618;
+    color: #75a93a;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
